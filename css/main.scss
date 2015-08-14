@@ -9,5 +9,7 @@
 @import
         "vendor/normalize", // No other styles should come before Normalize.css
         "vendor/bourbon/bourbon",
-        "vendor/neat/neat"
+        "base/grid-settings",
+        "vendor/neat/neat",
+        "base/base" // All additional stylesheets should be imported below Bitters
 ;
