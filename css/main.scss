@@ -8,5 +8,6 @@
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "vendor/normalize", // No other styles should come before Normalize.css
-        "vendor/bourbon/bourbon"
+        "vendor/bourbon/bourbon",
+        "vendor/neat/neat"
 ;
