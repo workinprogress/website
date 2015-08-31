@@ -3,3 +3,6 @@ $debug-styling: false;
 // Place an outline on every element to figure out what is going on
 $pesticide-debug-outline: $debug-styling !global;
 $pesticide-debug-depth: false !global;
+
+// Display the visual grid
+$visual-grid: $debug-styling !global;
