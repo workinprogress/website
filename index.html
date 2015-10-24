@@ -5,4 +5,5 @@ layout: default
 {% for post in site.posts %}
   {{ post.date | date: "%b %-d, %Y" }}
   <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+  <img src="http://img.youtube.com/vi/{{ post.youtube_id }}/0.jpg" alt="{{ post.title }}" />
 {% endfor %}
