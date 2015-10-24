@@ -1,3 +1,15 @@
+// Main page
+
+body {
+  @include align-items(center);
+
+  .site-title { display: none; }
+}
+
+.page-content {
+  max-width: $max-width;
+}
+
 // Episodes section
 
 .episodes-container {
