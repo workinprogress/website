@@ -1,0 +1,22 @@
+// Episodes section
+
+.episodes-container {
+  @include display(flex);
+  @include flex-flow(wrap);
+
+  .episode {
+    @include flex(0 0 calc(#{100% / 1} - #{$small-spacing} * 2));
+    margin: $small-spacing;
+
+    @include media($medium-screen) {
+      @include flex(0 0 calc(#{100% / 3} - #{$small-spacing} * 2));
+    }
+
+    @include media($large-screen) {
+      @include flex(0 0 calc(#{100% / 5} - #{$small-spacing} * 2));
+    }
+
+    .episode-title { display: none; }
+    .episode-thumbnail { min-width: 100%; height: auto; }
+  }
+}
