@@ -1,0 +1,11 @@
+// Sticky Footer (i.e., extend site content to full view height)
+// Ref.: https://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
+body {
+  @include display(flex);
+  @include flex-direction(column);
+  min-height: 100vh;
+}
+
+.page-content {
+  @include flex(1);
+}
