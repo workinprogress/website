@@ -1,16 +1,21 @@
-// Main page
+// Layout
 
 body {
-  @include align-items(center);
-
   .site-title { display: none; }
 }
 
-.page-content {
-  max-width: $max-width;
+.episodes-section-wrapper {
+  @include section-wrapper;
 }
 
 // Episodes section
+
+.episodes-section-wrapper {
+  background-color: $base-background-color;
+  .episodes-section {
+    max-width: $max-width;
+  }
+}
 
 .episodes-container {
   @include display(flex);

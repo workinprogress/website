@@ -1,0 +1,5 @@
+@mixin section-wrapper($padding: $base-spacing) {
+  @include display(flex);
+  @include justify-content(center);
+  padding: $padding;
+}
