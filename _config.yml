@@ -1,10 +1,8 @@
 # Site settings
-title: Your awesome title
+title: Work in Progress
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  A daily live show about product management - shipping, working with teams, making design decisions, debating what makes it into a product, knowing when to throw something away, etc. It's all current - stuff Nathan and I are struggling with on a daily basis. Sometimes we'll show work in progress and critique each other's work and ideas. Each show lasts about 30 minutes, so join in, subscribe to the channel, and hopefully learn a thing or two.
 baseurl: "/personal-website" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: jekyllrb

@@ -1,0 +1,49 @@
+.intro-section-wrapper {
+  @include content-stage;
+  .intro-section {
+    max-width: $max-width;
+  }
+}
+
+.intro-section {
+  color: $dark-gray;
+}
+
+.intro-text {
+  text-align: center;
+  padding-left: 0;
+  padding-right: 0;
+
+  @include media($medium-screen) {
+    padding-left: $base-spacing * 2;
+    padding-right: $base-spacing * 2;
+  }
+
+  @include media($large-screen) {
+    padding-left: $base-spacing * 4;
+    padding-right: $base-spacing * 4;
+  }
+}
+
+.intro-video {
+  @include display(flex);
+  @include justify-content(center);
+
+  padding-bottom: $base-spacing * 2;
+
+  .intro-video-wrapper {
+    width: 100%;
+
+    @include media($medium-screen) {
+      width: 80%;
+    }
+
+    @include media($large-screen) {
+      width: 60%;
+    }
+
+    .intro-frame-container {
+      @include iframe-container(percentage(9/16));
+    }
+  }
+}
