@@ -1,17 +1,23 @@
 ---
 layout: default
 ---
+
 <div class="intro-section-wrapper">
   <section class="intro-section">
     <h1 class="intro-section-title">{{ site.title }}</h1>
-    <div class="intro-video">
-      <div class="intro-video-wrapper">
-        <div class="intro-frame-container">
-          <iframe src="https://www.youtube.com/embed/rKFeTNXcNco?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0"></iframe>
-        </div>
+    <img
+      src="{{ "/assets/images/logo.png" | prepend: site.baseurl }}"
+      alt="Work in Progres Logo"
+      class="intro-logo" />
+    <p class="intro-text">{{ site.description }}</p>
+    <div class="intro-video-wrapper">
+      <div class="intro-frame-container">
+        <iframe
+          src="https://www.youtube.com/embed/rKFeTNXcNco?rel=0&amp;controls=0&amp;showinfo=0"
+          frameborder="0">
+        </iframe>
       </div>
     </div>
-    <p class="intro-text">{{ site.description }}</p>
   </section>
 </div>
 

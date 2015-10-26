@@ -2,7 +2,7 @@
 title: Work in Progress
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  A daily live show about product management - shipping, working with teams, making design decisions, debating what makes it into a product, knowing when to throw something away, etc. It's all current - stuff Nathan and I are struggling with on a daily basis. Sometimes we'll show work in progress and critique each other's work and ideas. Each show lasts about 30 minutes, so join in, subscribe to the channel, and hopefully learn a thing or two.
+  Work in Progress is a daily live show about product management - shipping, working with teams, making design decisions, debating what makes it into a product, knowing when to throw something away, etc. It's all current - stuff Nathan and I are struggling with on a daily basis. Sometimes we'll show work in progress and critique each other's work and ideas. Each show lasts about 30 minutes, so join in, subscribe to the channel, and hopefully learn a thing or two.
 baseurl: "/personal-website" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: jekyllrb
