@@ -6,6 +6,7 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "/website" # the subpath of your site, e.g. /blog/
 url: "https://workinprogress.github.io" # the base hostname & protocol for your site
 rawgiturl: "https://cdn.rawgit.com/workinprogress/website-assets"
+youtubeurl: "https://www.youtube.com/watch?v="
 twitter_username: jekyllrb
 github_username:  jekyll
 

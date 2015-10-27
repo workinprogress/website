@@ -32,7 +32,9 @@ layout: default
         {% for episode in episodies %}
           <article class="episode">
             <h1 class="episode-title">Episode: {{ episode.title }}</h1>
-            <a href="{{ episode.url | prepend: site.baseurl }}">
+            <a
+              href="{{ episode.youtube_id | prepend: site.youtubeurl }}"
+              target="_blank">
               <img src="http://img.youtube.com/vi/{{ episode.youtube_id }}/0.jpg"
                    alt="{{ episode.title }}"
                    class="episode-thumbnail" />
