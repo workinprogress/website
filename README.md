@@ -1,36 +1,5 @@
-# About
+# Work in Progress
 
-This repository is based on top of [exalted/jekyll-scaffold-for-gh-pages](https://github.com/exalted/jekyll-scaffold-for-gh-pages) which is a bare scaffold for [Jekyll](http://jekyllrb.com), ready to be published on [GitHub Pages](https://pages.github.com).
+![logo](https://cdn.rawgit.com/workinprogress/website-assets/809c0cf/images/logo.png)
 
-
-# Info
-
-Known to be working and scaffolded with `bundle exec jekyll --version # jekyll 2.4.0`.
-
-
-# Getting Started
-
-```
-git clone https://github.com/exalted/bourbon-scaffold-for-jekyll.git --origin scaffold my-awesome-website
-cd my-awesome-website/
-git remote add origin <url of your new GitHub repository>
-script/bootstrap
-```
-
-
-# Preview Locally
-
-```
-bin/serve
-```
-
-
-# Publish on GitHub Pages
-
-```
-bin/publish
-```
-
-:warning: Don't forget to at least configure properly `baseurl` in `_config.yml` before publishing using GitHub Pages ([read more](http://jekyllrb.com/docs/github-pages/#project-page-url-structure).)
-
-Learn more about [GitHub Pages Features](https://help.github.com/categories/github-pages-features/).
+Work in Progress is a daily live show about product management - shipping, working with teams, making design decisions, debating what makes it into a product, knowing when to throw something away, etc. It's all current - stuff Nathan and I are struggling with on a daily basis. Sometimes we'll show work in progress and critique each other's work and ideas. Each show lasts about 30 minutes, so join in, subscribe to the channel, and hopefully learn a thing or two.
