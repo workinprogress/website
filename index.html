@@ -6,7 +6,7 @@ layout: default
   <section class="intro-section">
     <h1 class="intro-section-title">Intro</h1>
     <img
-      src="{{ "/809c0cf/images/logo.png" | prepend: site.rawgiturl }}"
+      src="{{ "/809c0cf/images/logo.png" | prepend: site.custom.ext.rawgit.url }}"
       alt="Work in Progres Logo"
       class="intro-logo" />
     <p class="intro-text">{{ site.description }}</p>
@@ -33,7 +33,7 @@ layout: default
           <article class="episode">
             <h1 class="episode-title">Episode: {{ episode.title }}</h1>
             <a
-              href="{{ episode.youtube_id | prepend: site.youtubeurl }}"
+              href="{{ episode.youtube_id | prepend: site.custom.ext.youtube.url }}"
               target="_blank">
               <img src="http://img.youtube.com/vi/{{ episode.youtube_id }}/0.jpg"
                    alt="{{ episode.title }}"
