@@ -28,8 +28,8 @@ layout: default
     {% for week in episodes_per_week %}
       <h2 class="week-title">Week #{{ week.name }}</h2>
       <div class="episodes-container">
-        {% assign episodies = week.items | reverse %}
-        {% for episode in episodies %}
+        {% assign episodes = week.items | reverse %}
+        {% for episode in episodes %}
           <article class="episode">
             <h1 class="episode-title">Episode: {{ episode.title }}</h1>
             <a
