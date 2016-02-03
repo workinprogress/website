@@ -1,5 +1,12 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
 # Site settings
-name: Work in Progress
+title: Work in Progress
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   Work in Progress is a daily live show about product management - shipping, working with teams, making design decisions, debating what makes it into a product, knowing when to throw something away, etc. It's all current - stuff Nathan and I are struggling with on a daily basis. Sometimes we'll show work in progress and critique each other's work and ideas. Each show lasts about 30 minutes, so join in, subscribe to the channel, and hopefully learn a thing or two.
